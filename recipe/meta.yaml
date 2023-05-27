@@ -1,5 +1,5 @@
 {% set name = "pymsbuild" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymsbuild-{{ version }}.tar.gz
-  sha256: 5f99a91c0b7d667bed68afe882009110ced80872cca3f0be6b4f574a9394837a
+  sha256: 975d76afc3462b1a87b5ad92983fcb153773847cd6acf52a4eb23441ddfd7186
 
 build:
   number: 0
