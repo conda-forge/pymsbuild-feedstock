@@ -9,14 +9,17 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymsbuild-{{ version }}.tar.gz
   sha256: 1e9d92414a8d444291974364d0bf50d72032f06b411db7126ded6dcfd66f3740
+  patches:
+    - 92.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not (win and py>=37)]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
