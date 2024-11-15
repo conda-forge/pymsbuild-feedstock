@@ -7,10 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymsbuild-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymsbuild-{{ version }}.tar.gz
   sha256: 260b437e59855b69aa4a388b0e9632a5dbd1389fd347556c7ed43edf9298be0d
-  patches:
-    - 92.patch
 
 build:
   number: 0
