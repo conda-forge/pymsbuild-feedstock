@@ -1,5 +1,7 @@
 @echo on
 
+setlocal EnableDelayedExpansion
+
 set "PY_VER_PLAIN=!PY_VER:.=!"
 
 %PYTHON% -m pymsbuild wheel
