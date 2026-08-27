@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pymsbuild
-  version: "1.2.2"
+  version: "1.2.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pymsbuild-${{ version }}.tar.gz
-  sha256: 3062c8ae924e2a43abe254d78048457bf433e0375d8a671f02950515c42a4347
+  sha256: a7a37b4c1970ffc066b8b3c8b19578cff34819f256970097e573fe6ec12ddcbf
 
 build:
   number: 0
