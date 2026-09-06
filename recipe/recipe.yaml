@@ -13,7 +13,7 @@ source:
   sha256: a7a37b4c1970ffc066b8b3c8b19578cff34819f256970097e573fe6ec12ddcbf
 
 build:
-  number: 0
+  number: 1
   skip: not (win and match(python, ">=3.7"))
 
 requirements:
